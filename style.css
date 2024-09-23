@@ -1,5 +1,12 @@
+:root{
+    -moz-text-decoration-color: blanchedalmond;
+    -webkit-text-fill-color: darksalmon;
+    -webkit-text-stroke-color: cornsilk;
+}
+
 body{
     background-color: lavenderblush;
+    font-family: Bai Jamjuree;
 }
 
 #container{
@@ -15,6 +22,7 @@ body{
 }
 
 .cartao__conteudo{
+    background-color: var(-webkit-text-fill-color);
     text-align: center;
     height: 100%;
 }
@@ -29,23 +37,13 @@ body{
     font-size: 1vw;
 }
 
-.cartao__contbody{
-    background-color: lavenderblush;
-}
-
-#container{
-    display: flex;
-}
-
-.cartao{
-    margin: 1rem 1rem;
-…
-.cartao__conteudo h3{
-    background-color: coral;
-    text-align: left;
-    padding: eudo p{
+.cartao__conteudo p{ 
     margin-top: 1rem;
     padding: 2rem;
+}
+
+.cartao__conteudo__resposta p{
+    color: var(-moz-text-decoration-color);
 }
 
 footer{
